@@ -1,0 +1,8 @@
+---
+cache: pip
+install: "-pip install -r requirments.txt"
+language: python
+python:
+  - "3.4.3"
+script:
+  - "python test_rpn.py"
